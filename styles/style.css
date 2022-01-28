@@ -1,5 +1,9 @@
 /* Add your class here */
-
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .header {
   height: 100vh;
   min-height: 720px;
@@ -13,9 +17,14 @@
 
 .nav {
   /* Add flex properties here */
+  display: flex;
+  /* flex-direction: row; do i need to add this */
+  justify-content: space-between;
 }
 
 .logo {
+  width: 196px;
+  height: 60px;
 }
 
 .nav-links {
@@ -35,16 +44,19 @@
   font-weight: 500;
   line-height: 76px;
   margin: 150px 0 0;
+  max-width: 544px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
+  max-width: 465px;
 }
 
 .header__image {
   /* Write styles here */
+  max-width: 636px;
   z-index: 1;
 }
 
